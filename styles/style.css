@@ -1,0 +1,175 @@
+/* Google Fonts
+font-family: 'Open Sans', sans-serif;
+font-family: 'Lora', serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.bg-dark {
+    background: #24242c !important;
+}
+
+.bg-warning {
+    background: #e0ad2f !important;
+}
+
+.text-dark {
+    color: #24242c !important;
+}
+
+.text-gray {
+    color: #97999b !important;
+}
+
+.text-warning {
+    color: #ffb600 !important;
+}
+
+.navbar {
+    padding: 25px 0px !important;
+}
+
+a.unsub-btn {
+    font-size: 13pt;
+    text-decoration: none;
+}
+
+.banner {
+    padding: 155px 0px 125px 0px;
+}
+
+.banner p {
+    font-size: 35pt;
+}
+
+.banner span {
+    font-size: 15pt;
+    color: #24242c;
+    margin: 20px 0px 45px 0px;
+}
+
+.banner a.btn {
+    background: #24242c;
+    padding: 10px 40px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    margin: 0 auto;
+}
+
+span.chev-icon {
+    color: #fff;
+    margin: 0;
+}
+
+.offers {
+    margin: 25px 0px;
+}
+
+.offers h3, .offers-section h3 {
+    font-size: 20pt;
+    font-weight: 600;
+    margin: 20px 0px 10px 0px;
+}
+
+.offers span, .offers-section span {
+    font-size: 13pt;
+    background: url('../images/mark-icon.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+}
+
+.offers p, .offers-section p {
+    font-size: 13pt;
+    margin: 22px 0px;
+}
+
+.offers h4, .offers-section h4 {
+    font-size: 20pt;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.offers a.btn {
+    font-size: 13pt;
+    font-weight: 600;
+    padding: 10px 18px;
+    margin: 10px 0px 30px 0px;
+}
+
+.jumbotron {
+    background: #47474e;
+    padding: 100px 0px 60px 0px;
+}
+
+.jumbotron p {
+    font-size: 35pt;
+    margin-bottom: 35px !important;
+}
+
+.jumbotron p span {
+    font-family: 'Lora', serif;
+}
+
+.jumbotron a.btn {
+    font-size: 13pt;
+    border: 1px solid #fff;
+    width: 230px;
+    padding: 15px 0px;
+    margin: 0 auto;
+}
+
+.pad-fix {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offers-section .content {
+    width: 280px;
+}
+
+.inner-pad {
+    padding: 50px 0px;
+}
+
+.footer-section {
+    padding: 20px 0px 35px 0px;
+}
+
+.footer-section p {
+    font-size: 13pt;
+    color: #797c82;
+    font-weight: 300;
+    vertical-align: bottom;
+    margin-left: 8px;
+}
+
+.footer-section ul {
+    margin-top: 0;
+}
+
+.footer-section .list-inline-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 578px) {
+    .footer-section {
+    text-align: center;
+    }
+}
+
